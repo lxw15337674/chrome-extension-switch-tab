@@ -12,9 +12,6 @@
     "tabs",
     "storage"
   ],
-  "options_ui": {
-    "page": "options.html"
-  },
   "action": {
     "default_icon": {
       "128": "icon.png"
@@ -34,8 +31,5 @@
   ],
   "background": {
     "service_worker": "js/background.js"
-  },
-  "host_permissions": [
-    "<all_urls>"
-  ]
+  }
 }

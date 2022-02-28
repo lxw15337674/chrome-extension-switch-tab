@@ -1,70 +1,29 @@
-# Chrome Extension TypeScript Starter
+# switchtab
 
-![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg)
+通过编号，快速切换tab
 
-Chrome Extension, TypeScript and Visual Studio Code
+## todo
 
-## Prerequisites
+- [ ] 可以配置是否修改title
+- [ ] 保存在storage
+- [ ] 初始化时reload所有页面
 
-* [node + npm](https://nodejs.org/) (Current Version)
+## 快捷键
 
-## Option
+| 快捷键   | 操作                    |      |
+| -------- | ----------------------- | ---- |
+| alt+num  | 切换到对应的num标签页   |      |
+| ctrl+num | 设置当前标签页为num编号 |      |
+|          |                         |      |
 
-* [Visual Studio Code](https://code.visualstudio.com/)
+## 踩坑
 
-## Includes the following
+### 关于持久化保存
 
-* TypeScript
-* Webpack
-* React
-* Jest
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
+重新打开浏览器tabid、windowid是会变化的。所以只能存在sessionStorage中
 
-## Project Structure
 
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
 
-## Setup
+## 依赖
 
-```
-npm install
-```
-
-## Import as Visual Studio Code project
-
-...
-
-## Build
-
-```
-npm run build
-```
-
-## Build in watch mode
-
-### terminal
-
-```
-npm run watch
-```
-
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
-
-## Load extension to chrome
-
-Load `dist` directory
-
-## Test
-`npx jest` or `npm run test`
+脚手架：https://github.com/chibat/chrome-extension-typescript-starter.git
