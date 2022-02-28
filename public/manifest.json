@@ -1,5 +1,5 @@
 {
-  "name": "ToggleTab",
+  "name": "quickToggleTab",
   "description": "快速切换Tab",
   "version": "1.0.0",
   "manifest_version": 3,
