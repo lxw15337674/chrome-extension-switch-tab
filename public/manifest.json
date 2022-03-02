@@ -29,6 +29,34 @@
       ]
     }
   ],
+  "commands": {
+    "switch1": {
+      "suggested_key": {
+        "default": "Alt+1"
+      },
+      "description": "切换到编号1标签页",
+      "global": true
+    },
+    "switch2": {
+      "suggested_key": {
+        "default": "Alt+2"
+      },
+      "description": "切换到编号2标签页",
+      "global": true
+    },
+    "set1": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      },
+      "description": "设置为编号1标签页"
+    },
+    "set2": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2"
+      },
+      "description": "设置为编号2标签页"
+    }
+  },
   "background": {
     "service_worker": "js/background.js"
   }

@@ -22,18 +22,19 @@ const clearNumber = ()=>{
 
 window.addEventListener('keydown', (e) => {
 	const { altKey, ctrlKey, key } = e
-	if (altKey && isNum(key)) {
-		e.preventDefault()
-		runtime.sendMessage({ action: 'toggleTab', key })
-	} 
 	if (ctrlKey && isNum(key)) {
 		runtime.sendMessage({ action: 'setTab', key })
 		e.preventDefault()
+		return 
 	}
+	if (altKey && isNum(key)) {
+		e.preventDefault()
+		runtime.sendMessage({ action: 'toggleTab', key })
+		return 
+	} 
 })
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-	console.log(request, sender, sendResponse)
 	if(request.action==='setNumber'){
 		setNumber(request.key)
 	}
