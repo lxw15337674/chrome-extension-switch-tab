@@ -44,17 +44,19 @@
       "description": "切换到编号2标签页",
       "global": true
     },
-    "set1": {
+    "switch3": {
       "suggested_key": {
-        "default": "Ctrl+Shift+1"
+        "default": "Alt+3"
       },
-      "description": "设置为编号1标签页"
+      "description": "切换到编号3标签页",
+      "global": true
     },
-    "set2": {
+    "switch4": {
       "suggested_key": {
-        "default": "Ctrl+Shift+2"
+        "default": "Alt+4"
       },
-      "description": "设置为编号2标签页"
+      "description": "切换到编号4标签页",
+      "global": true
     }
   },
   "background": {
