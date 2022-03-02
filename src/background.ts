@@ -19,6 +19,7 @@ async function getActiveTab() {
 }
 
 chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) =>{
+  console.log(request,sender,sendResponse)
   if (request.action === 'toggleTab') {
     toggleTab(request.key)
   }
