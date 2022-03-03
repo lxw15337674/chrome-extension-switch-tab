@@ -1,0 +1,109 @@
+{
+  "name": "quickToggleTab",
+  "description": "快速切换Tab",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "notifications"
+  ],
+  "action": {
+    "default_icon": {
+      "128": "icon.png"
+    },
+    "default_title": "快速切换Tab"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/vendor.js",
+        "js/content_script.js"
+      ]
+    }
+  ],
+  "commands": {
+    "switch1": {
+      "description": "切换到编号1标签页",
+      "global": true
+    },
+    "switch2": {
+      "description": "切换到编号2标签页",
+      "global": true
+    },
+    "switch3": {
+      "description": "切换到编号3标签页",
+      "global": true
+    },
+    "switch4": {
+      "description": "切换到编号4标签页",
+      "global": true
+    },
+    "switch5": {
+      "description": "切换到编号5标签页",
+      "global": true
+    },
+    "switch6": {
+      "description": "切换到编号6标签页",
+      "global": true
+    },
+    "switch7": {
+      "description": "切换到编号7标签页",
+      "global": true
+    },
+    "switch8": {
+      "description": "切换到编号8标签页",
+      "global": true
+    },
+    "switch9": {
+      "description": "切换到编号9标签页",
+      "global": true
+    },
+    "set1": {
+      "description": "设置当前标签页为编号1",
+      "global": true
+    },
+    "set2": {
+      "description": "设置当前标签页为编号2",
+      "global": true
+    },
+    "set3": {
+      "description": "设置当前标签页为编号3",
+      "global": true
+    },
+    "set4": {
+      "description": "设置当前标签页为编号4",
+      "global": true
+    },
+    "set5": {
+      "description": "设置当前标签页为编号5",
+      "global": true
+    },
+    "set6": {
+      "description": "设置当前标签页为编号6",
+      "global": true
+    },
+    "set7": {
+      "description": "设置当前标签页为编号7",
+      "global": true
+    },
+    "set8": {
+      "description": "设置当前标签页为编号8",
+      "global": true
+    },
+    "set9": {
+      "description": "设置当前标签页为编号9",
+      "global": true
+    }
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  }
+}
