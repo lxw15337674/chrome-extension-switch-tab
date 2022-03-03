@@ -43,9 +43,9 @@
 
 刷新页面初始化时也要重新mark。
 
-### background.js
+### background.js 休眠Bug
 
-一段时间不使用后，插件会休眠，并清空闭包的keys（无语），所以不能通过闭包保存keys。
+一段时间不使用后，background会休眠，清空闭包的keys（无语），所以不能通过闭包保存keys,需要通过storage保存。
 
 https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/#state
 

@@ -61,21 +61,32 @@ async function setTab(key: number, tab: chrome.tabs.Tab) {
 function setTabInfo(index: number, tabInfo: TabInfo) {
   getKeys((keys) => {
     // 如果已存在，则重置被覆盖tab的title
-    const tabId = keys[index]?.tabId
-    if (tabId) {
+    const tabId = keys[index]?.tabId ?? -1
+    if (tabId > -1) {
       sendClearNumber(tabId)
     }
     // 如果重新编号，则删除之前的编号
     let existedIndex = keys.findIndex(item => item?.tabId === tabInfo?.tabId && item?.windowId === tabInfo?.windowId)
     if (existedIndex >= 0) {
-      const tabId = keys[existedIndex]?.tabId as number
-      sendClearNumber(tabId)
       keys[existedIndex] = undefined
     }
     keys[index] = tabInfo
     chrome.storage.local.set({ keys })
     if (tabInfo) {
       sendSetNumber(tabInfo.tabId, index)
+      chrome.notifications.clear('setTab');
+      chrome.notifications.create('setTab', {
+        type: 'basic',
+        iconUrl: chrome.runtime.getURL(`icon.png`),
+        title: '设置成功',
+        message: `设置当前标签页为${index}`,
+        priority: 0,
+        silent: true
+      }, (notificationId) => {
+        setTimeout(function () {
+          chrome.notifications.clear(notificationId);
+        }, 2000);
+      })
     }
   })
 }
@@ -107,19 +118,7 @@ chrome.commands.onCommand.addListener((command, tab: chrome.tabs.Tab) => {
     /set./.test(command)
   ) {
     const number = Number(command[command.length - 1])
-    chrome.notifications.clear('setTab');
-    chrome.notifications.create('setTab', {
-      type: 'basic',
-      iconUrl: chrome.runtime.getURL(`icon.png`),
-      title: '设置成功',
-      message: `设置当前标签页为${number}`,
-      priority: 0,
-      silent: true
-    }, (notificationId) => {
-      setTimeout(function () {
-        chrome.notifications.clear(notificationId);
-      }, 2000);
-    })
+
     setTab(number, tab)
   }
 })
