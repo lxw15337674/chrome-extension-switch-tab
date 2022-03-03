@@ -43,6 +43,16 @@
 
 刷新页面初始化时也要重新mark。
 
+### background.js
+
+一段时间不使用后，插件会休眠，并清空闭包的keys（无语），所以不能通过闭包保存keys。
+
+https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/#state
+
+![img](https://wowd7vt38j.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjFkZGU0MmU4M2YyYzAzOWMyNjhiODMxOTM0NzYxODdfSHFBVHAwSE50RDdOSHdYQjFHZDMwMm83UzFyaW1TeXJfVG9rZW46Ym94Y25MSlpmZ3RYTzVGaGtPUERDTmxBcExjXzE2NDYzMDAyNTA6MTY0NjMwMzg1MF9WNA)
+
+
+
 ## 依赖
 
 脚手架：https://github.com/chibat/chrome-extension-typescript-starter.git
