@@ -31,76 +31,58 @@
   ],
   "commands": {
     "switch1": {
-      "description": "切换到编号1标签页",
-      "global": true
+      "description": "切换到编号1标签页"
     },
     "switch2": {
-      "description": "切换到编号2标签页",
-      "global": true
+      "description": "切换到编号2标签页"
     },
     "switch3": {
-      "description": "切换到编号3标签页",
-      "global": true
+      "description": "切换到编号3标签页"
     },
     "switch4": {
-      "description": "切换到编号4标签页",
-      "global": true
+      "description": "切换到编号4标签页"
     },
     "switch5": {
-      "description": "切换到编号5标签页",
-      "global": true
+      "description": "切换到编号5标签页"
     },
     "switch6": {
-      "description": "切换到编号6标签页",
-      "global": true
+      "description": "切换到编号6标签页"
     },
     "switch7": {
-      "description": "切换到编号7标签页",
-      "global": true
+      "description": "切换到编号7标签页"
     },
     "switch8": {
-      "description": "切换到编号8标签页",
-      "global": true
+      "description": "切换到编号8标签页"
     },
     "switch9": {
-      "description": "切换到编号9标签页",
-      "global": true
+      "description": "切换到编号9标签页"
     },
     "set1": {
-      "description": "设置当前标签页为编号1",
-      "global": true
+      "description": "设置当前标签页为编号1"
     },
     "set2": {
-      "description": "设置当前标签页为编号2",
-      "global": true
+      "description": "设置当前标签页为编号2"
     },
     "set3": {
-      "description": "设置当前标签页为编号3",
-      "global": true
+      "description": "设置当前标签页为编号3"
     },
     "set4": {
-      "description": "设置当前标签页为编号4",
-      "global": true
+      "description": "设置当前标签页为编号4"
     },
     "set5": {
-      "description": "设置当前标签页为编号5",
-      "global": true
+      "description": "设置当前标签页为编号5"
     },
     "set6": {
-      "description": "设置当前标签页为编号6",
-      "global": true
+      "description": "设置当前标签页为编号6"
     },
     "set7": {
-      "description": "设置当前标签页为编号7",
-      "global": true
+      "description": "设置当前标签页为编号7"
     },
     "set8": {
-      "description": "设置当前标签页为编号8",
-      "global": true
+      "description": "设置当前标签页为编号8"
     },
     "set9": {
-      "description": "设置当前标签页为编号9",
-      "global": true
+      "description": "设置当前标签页为编号9"
     }
   },
   "background": {
