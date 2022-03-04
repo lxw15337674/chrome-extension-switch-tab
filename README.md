@@ -1,6 +1,17 @@
 # switchtab
 
-通过编号，快速切换tab
+Add keyboard shortcuts to switch tabs。
+quickly switch between tabs，No mouse needed!
+★ command
+
+- marker tab 
+- switch marked tab
+
+★ about shortcuts
+need to set the command shortcut keys by self
+
+★ Support and source code
+https://github.com/lxw15337674/chrome-extension-switch-tab
 
 ## todo
 
@@ -8,6 +19,7 @@
 - [x] 跨窗口切换
 - [x] 注册浏览器的全局快捷键
 - [x] title标记
+- [ ] 增加多语言
 
 ## 限制
 
