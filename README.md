@@ -10,9 +10,9 @@ quickly switch between tabs，No mouse needed!
 ★ about shortcuts
 need to set the command shortcut keys by self
 
-[chrome store](https://chrome.google.com/webstore/detail/quicktoggletab/imlemoadabijcdannogngemddopdecpf/related?hl=zh-CN&authuser=0)
+[chrome store link](https://chrome.google.com/webstore/detail/quicktoggletab/imlemoadabijcdannogngemddopdecpf/related?hl=zh-CN&authuser=0)
 
-[edge store ](https://microsoftedge.microsoft.com/addons/detail/quicktoggletab/fgpopcignfobonnfhlfnafdkdmjiemag)
+[edge store link](https://microsoftedge.microsoft.com/addons/detail/quicktoggletab/fgpopcignfobonnfhlfnafdkdmjiemag)
 
 
 ## todo
