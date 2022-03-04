@@ -10,8 +10,10 @@ quickly switch between tabs，No mouse needed!
 ★ about shortcuts
 need to set the command shortcut keys by self
 
-★ Support and source code
-https://github.com/lxw15337674/chrome-extension-switch-tab
+[chrome store](https://chrome.google.com/webstore/detail/quicktoggletab/imlemoadabijcdannogngemddopdecpf/related?hl=zh-CN&authuser=0)
+
+[edge store ](https://microsoftedge.microsoft.com/addons/detail/quicktoggletab/fgpopcignfobonnfhlfnafdkdmjiemag)
+
 
 ## todo
 
@@ -60,8 +62,6 @@ https://github.com/lxw15337674/chrome-extension-switch-tab
 一段时间不使用后，background会休眠，清空闭包的keys（无语），所以不能通过闭包保存keys,需要通过storage保存。
 
 https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/#state
-
-![img](https://wowd7vt38j.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjFkZGU0MmU4M2YyYzAzOWMyNjhiODMxOTM0NzYxODdfSHFBVHAwSE50RDdOSHdYQjFHZDMwMm83UzFyaW1TeXJfVG9rZW46Ym94Y25MSlpmZ3RYTzVGaGtPUERDTmxBcExjXzE2NDYzMDAyNTA6MTY0NjMwMzg1MF9WNA)
 
 
 
