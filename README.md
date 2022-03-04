@@ -15,10 +15,10 @@ https://github.com/lxw15337674/chrome-extension-switch-tab
 
 ## todo
 
-- [ ] 可以配置是否修改title
 - [x] 跨窗口切换
 - [x] 注册浏览器的全局快捷键
 - [x] title标记
+- [ ] 可以配置是否修改title
 - [ ] 增加多语言
 
 ## 限制

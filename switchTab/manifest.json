@@ -1,6 +1,6 @@
 {
-  "name": "quickToggleTab",
-  "description": "快速切换Tab",
+  "name": "switchtab",
+  "description": "Add keyboard shortcuts to switch tabs。",
   "version": "1.1.1",
   "manifest_version": 3,
   "icons": {
@@ -16,8 +16,7 @@
   "action": {
     "default_icon": {
       "128": "icon.png"
-    },
-    "default_title": "快速切换Tab"
+    }
   },
   "content_scripts": [
     {
@@ -32,58 +31,58 @@
   ],
   "commands": {
     "switch1": {
-      "description": "切换到编号1标签页"
+      "description": "switch N0.1 tab"
     },
     "switch2": {
-      "description": "切换到编号2标签页"
+      "description": "switch N0.2 tab"
     },
     "switch3": {
-      "description": "切换到编号3标签页"
+      "description": "switch N0.3 tab"
     },
     "switch4": {
-      "description": "切换到编号4标签页"
+      "description": "switch N0.4 tab"
     },
     "switch5": {
-      "description": "切换到编号5标签页"
+      "description": "switch N0.5 tab"
     },
     "switch6": {
-      "description": "切换到编号6标签页"
+      "description": "switch N0.6 tab"
     },
     "switch7": {
-      "description": "切换到编号7标签页"
+      "description": "switch N0.7 tab"
     },
     "switch8": {
-      "description": "切换到编号8标签页"
+      "description": "switch N0.8 tab"
     },
     "switch9": {
-      "description": "切换到编号9标签页"
+      "description": "switch N0.9 tab"
     },
     "set1": {
-      "description": "设置当前标签页为编号1"
+      "description": "Set the current tab to N0.1"
     },
     "set2": {
-      "description": "设置当前标签页为编号2"
+      "description": "Set the current tab to N0.2"
     },
     "set3": {
-      "description": "设置当前标签页为编号3"
+      "description": "Set the current tab to N0.3"
     },
     "set4": {
-      "description": "设置当前标签页为编号4"
+      "description": "Set the current tab to N0.4"
     },
     "set5": {
-      "description": "设置当前标签页为编号5"
+      "description": "Set the current tab to N0.5"
     },
     "set6": {
-      "description": "设置当前标签页为编号6"
+      "description": "Set the current tab to N0.6"
     },
     "set7": {
-      "description": "设置当前标签页为编号7"
+      "description": "Set the current tab to N0.7"
     },
     "set8": {
-      "description": "设置当前标签页为编号8"
+      "description": "Set the current tab to N0.8"
     },
     "set9": {
-      "description": "设置当前标签页为编号9"
+      "description": "Set the current tab to N0.9"
     }
   },
   "background": {

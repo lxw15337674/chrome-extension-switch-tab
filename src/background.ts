@@ -57,6 +57,7 @@ async function setTab(key: number, tab: chrome.tabs.Tab) {
   }
 }
 
+let time: NodeJS.Timeout
 // keys定义为数组
 function setTabInfo(index: number, tabInfo: TabInfo) {
   getKeys((keys) => {
@@ -74,18 +75,20 @@ function setTabInfo(index: number, tabInfo: TabInfo) {
     chrome.storage.local.set({ keys })
     if (tabInfo) {
       sendSetNumber(tabInfo.tabId, index)
-      chrome.notifications.clear('setTab');
-      chrome.notifications.create('setTab', {
+      const notificationId = `setTab`
+      chrome.notifications.clear(notificationId);
+      clearTimeout(time)
+      chrome.notifications.create(notificationId, {
         type: 'basic',
         iconUrl: chrome.runtime.getURL(`icon.png`),
-        title: '设置成功',
-        message: `设置当前标签页为${index}`,
+        title: 'set shortcuts Success',
+        message: `Set the current tab to N0.${index}`,
         priority: 0,
         silent: true
       }, (notificationId) => {
-        setTimeout(function () {
+        time = setTimeout(function () {
           chrome.notifications.clear(notificationId);
-        }, 2000);
+        }, 3000);
       })
     }
   })
