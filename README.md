@@ -1,7 +1,9 @@
 # switchtab
 
-Add keyboard shortcuts to switch tabs。
+Add keyboard shortcuts to switch tabs.
+
 quickly switch between tabs，No mouse needed!
+
 ★ command
 
 - marker tab 
