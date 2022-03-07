@@ -12,7 +12,7 @@ need to set the command shortcut keys by self
 
 ## store link
 
-[chrome web store ](https://chrome.google.com/webstore/detail/quicktoggletab/imlemoadabijcdannogngemddopdecp)
+[chrome web store ](https://chrome.google.com/webstore/detail/switchtab/imlemoadabijcdannogngemddopdecpf)
 
 [edge store](https://microsoftedge.microsoft.com/addons/detail/quicktoggletab/fgpopcignfobonnfhlfnafdkdmjiemag)
 
