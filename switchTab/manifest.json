@@ -1,7 +1,7 @@
 {
   "name": "quickToggleTab",
   "description": "快速切换Tab",
-  "version": "1.1.2",
+  "version": "1.1.1",
   "manifest_version": 3,
   "icons": {
     "16": "icon.png",
@@ -29,52 +29,52 @@
       "description": "切换到编号2标签页"
     },
     "switch3": {
-      "description": "切换到编号3标签页"
+      "description": "switch to tab1"
     },
     "switch4": {
-      "description": "切换到编号4标签页"
+      "description": "switch to tab2"
     },
     "switch5": {
-      "description": "切换到编号5标签页"
+      "description": "switch to tab3"
     },
     "switch6": {
-      "description": "切换到编号6标签页"
+      "description": "switch to tab4"
     },
     "switch7": {
-      "description": "切换到编号7标签页"
+      "description": "switch to tab5"
     },
     "switch8": {
-      "description": "切换到编号8标签页"
+      "description": "switch to tab6"
     },
     "switch9": {
-      "description": "切换到编号9标签页"
+      "description": "switch to tab7"
     },
     "set1": {
-      "description": "设置当前标签页为编号1"
+      "description": "Set the current tab to tab1"
     },
     "set2": {
-      "description": "设置当前标签页为编号2"
+      "description": "Set the current tab to tab2"
     },
     "set3": {
-      "description": "设置当前标签页为编号3"
+      "description": "Set the current tab to tab3"
     },
     "set4": {
-      "description": "设置当前标签页为编号4"
+      "description": "Set the current tab to tab4"
     },
     "set5": {
-      "description": "设置当前标签页为编号5"
+      "description": "Set the current tab to tab5"
     },
     "set6": {
-      "description": "设置当前标签页为编号6"
+      "description": "Set the current tab to tab6"
     },
     "set7": {
-      "description": "设置当前标签页为编号7"
+      "description": "Set the current tab to tab7"
     },
     "set8": {
-      "description": "设置当前标签页为编号8"
+      "description": "Set the current tab to tab8"
     },
     "set9": {
-      "description": "设置当前标签页为编号9"
+      "description": "Set the current tab to tab9"
     }
   },
   "background": {

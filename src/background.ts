@@ -85,8 +85,8 @@ function setTabInfo(index: number, tabInfo: TabInfo) {
         {
           type: 'basic',
           iconUrl: chrome.runtime.getURL(`icon.png`),
-          title: 'set shortcuts Success',
-          message: `Set the current tab to N0.${index}`,
+          title: 'set Number Success',
+          message: `Set the current tab to  tab${index}`,
           priority: 0,
           silent: true,
         },
